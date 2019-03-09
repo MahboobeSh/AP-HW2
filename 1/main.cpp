@@ -10,6 +10,7 @@ int main(){
   std::srand(static_cast<unsigned>(std::time(nullptr)));
   
   Map map1{n};
+
   map1.showMap();
   map1.showRoute();
   map1.showRoute_B();
